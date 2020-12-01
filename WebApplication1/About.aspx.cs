@@ -14,6 +14,15 @@ namespace WebApplication1
 
         }
 
-        
+        protected void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+            Label2.Text = TextBox1.Text;
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
